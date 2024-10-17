@@ -28,6 +28,9 @@ export const Logo = () => {
       <p className={cn("font-semibold", font.className)}>
         Zotion
       </p>
+      {/* <p className={cn("font-semibold", font.className)}>
+        Zotion
+      </p> */}
     </div>
   )
 }
