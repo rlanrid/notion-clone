@@ -2,11 +2,14 @@
 `npx shadcn-ui init`
 
 ## 🧾개념 정리   
--convex
--shadcn
--zustand
--clerk
--lucid-react
+- convex   
+- shadcn   
+- zustand   
+- clerk   
+- lucid-react   
+
+- useMutation   
+
 
 ## 🔍주요 기능   
 
