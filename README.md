@@ -27,6 +27,8 @@ Lucid-react는 React 기반의 UI 컴포넌트 라이브러리로, 깔끔하고 
 useMutation은 React의 훅 중 하나로, 서버에 데이터를 전송하거나 변경하는 요청을 처리하는 데 사용됩니다.   
 일반적으로 GraphQL과 함께 사용되며, 클라이언트와 서버 간의 데이터 상호작용을 쉽게 해줍니다.  
 
+- Edge store
+
 
 ## 🔍주요 기능   
 
@@ -52,7 +54,13 @@ hunks\\app\\(main)\\layout.js'
 5. close vs code and reopen it.
 6. run npm run dev.
 
-------
+------   
+
+```js
+`EdgeStoreError: Failed to parse response. Make sure the api is correctly configured at http://localhost:3000/api/edgestore/init`
+```
+
+원인 및 해결방법: 버전을 0.1.4로 바꾸니 해결
 
 ## 📎사이트   
 
