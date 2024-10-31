@@ -57,7 +57,7 @@ hunks\\app\\(main)\\layout.js'
 ------   
 
 ```js
-`EdgeStoreError: Failed to parse response. Make sure the api is correctly configured at http://localhost:3000/api/edgestore/init`
+`EdgeStoreError: Failed to parse response. Make sure the api is correctly configured at http://localhost:3000/api/edgestore/init`   
 ```
 
 원인 및 해결방법: 버전을 0.1.4로 바꾸면 해결
