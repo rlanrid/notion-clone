@@ -55,7 +55,8 @@ export const Item = ({
   ) => {
     event.stopPropagation();
     if (!id) return;
-    const promise = archive({ id });
+    const promise = archive({ id })
+      .then(() => router.push("/documents"))
 
     toast.promise(promise, {
       loading: "Moving to trash...",
@@ -121,7 +122,7 @@ export const Item = ({
         </div>
       ) : (
         <Icon
-          className="shirnk-0 h-[18px] mr-2 text-muted-foreground"
+          className="shirnk-0 h-[18px] w-[18px] mr-2 text-muted-foreground"
         />
       )}
       <span className="truncate">
