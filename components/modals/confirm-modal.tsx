@@ -21,7 +21,7 @@ export const ConfirmModal = ({
   children,
   onConfirm
 }: ConfirmModalProps) => {
-  const handleConfirm = (e: React.MouseEvent<HTMLDivElement, MouseEvent>
+  const handleConfirm = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>
   ) => {
     e.stopPropagation();
     onConfirm();
