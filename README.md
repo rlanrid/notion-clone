@@ -310,10 +310,6 @@ Noteblock 라이브러리를 이용해 텍스트 기능을 간단하게 구현
   운영체제 재설치   
 </details>
 
-```js
-`EdgeStoreError: Failed to parse response. Make sure the api is correctly configured at http://localhost:3000/api/edgestore/init`   
-```
-
 원인 및 해결방법: 버전을 0.1.4로 바꾸면 해결
 
 ## 📎사이트   
